@@ -1,14 +1,14 @@
 import { useEffect } from "react";
-import Navbar from "../components/Navbar";
-import AllPosts from "../components/AllPosts";
-import AuthPage from "../components/AuthPage";
-import AdminPanel from "../components/AdminPanel";
-import PostDetail from "../components/PostDetail";
-import Experience from "../components/Experience";
-import Services from "../components/Services";
-import News from "../components/News";
-import Dealers from "../components/Dealers";
-import useStore from "../store/useStore";
+import Navbar from "./components/Navbar";
+import AllPosts from "./components/AllPosts";
+import AuthPage from "./components/AuthPage";
+import AdminPanel from "./components/AdminPanel";
+import PostDetail from "./components/PostDetail";
+import Experience from "./components/Experience";
+import Services from "./components/Services";
+import News from "./components/News";
+import Dealers from "./components/Dealers";
+import useStore from "./store/useStore";
 
 const MODELS = [
   { name: "911", type: "Gasoline", desc: "Iconic sports car with rear engine: 2 doors, 2+2 seats.", img: "https://a.storyblok.com/f/338913/1280x1024/b7f3c2d593/911-desktop_5-4.jpg" },

@@ -1,5 +1,5 @@
 import { FiTrash2, FiCalendar, FiUser, FiTag, FiDollarSign } from "react-icons/fi";
-import useStore from "../store/useStore";
+import useStore from "../../store/useStore";
 
 const FALLBACK_IMAGES = {
   "911": "https://a.storyblok.com/f/338913/1280x1024/b7f3c2d593/911-desktop_5-4.jpg",
